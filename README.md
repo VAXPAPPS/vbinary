@@ -271,4 +271,3 @@ To add new features, follow the existing structure:
 ## 📄 License
 
 VAXP organization projects
-# vbinary
