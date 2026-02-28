@@ -30,9 +30,6 @@ A professional and fast Flutter application for converting numbers between diffe
 - Maintainable and developable code
 - Easy to add new features
 
-### 📱 Multi-Platform Support
-- Run on **Linux**, **macOS**, and **Windows**
-- Unified experience across all platforms
 
 ### ⚡ High Performance
 - Instant conversions even for very large numbers
