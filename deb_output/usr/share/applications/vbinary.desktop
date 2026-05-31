@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=vbinary
+Comment=Flutter Application - vbinary
+Exec=/usr/bin/vbinary
+Icon=/usr/share/icons/hicolor/256x256/apps/vbinary.png
+Terminal=false
+Categories=Utility;Development;
