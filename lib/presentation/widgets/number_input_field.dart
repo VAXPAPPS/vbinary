@@ -41,19 +41,19 @@ class _NumberInputFieldState extends State<NumberInputField> {
       decoration: InputDecoration(
         labelText: widget.label,
         labelStyle: const TextStyle(color: Colors.white70),
-        hintStyle: TextStyle(color: Colors.white.withOpacity(0.4)),
+        hintStyle: TextStyle(color: Colors.white.withValues(alpha: 0.4)),
         filled: true,
         fillColor: const Color.fromARGB(100, 32, 32, 32),
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: BorderSide(
-            color: VaxpColors.primary.withOpacity(0.3),
+            color: VaxpColors.primary.withValues(alpha: 0.3),
           ),
         ),
         enabledBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(12),
           borderSide: BorderSide(
-            color: VaxpColors.primary.withOpacity(0.2),
+            color: VaxpColors.primary.withValues(alpha: 0.2),
           ),
         ),
         focusedBorder: OutlineInputBorder(

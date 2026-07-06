@@ -50,7 +50,7 @@ class _BaseSelectorState extends State<BaseSelector> {
           dropdownColor: const Color.fromARGB(200, 0, 0, 0),
           underline: Container(
             height: 1,
-            color: VaxpColors.primary.withOpacity(0.3),
+            color: VaxpColors.primary.withValues(alpha: 0.3),
           ),
           items: widget.options.map((String base) {
             return DropdownMenuItem<String>(

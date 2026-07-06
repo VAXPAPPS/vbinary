@@ -62,10 +62,10 @@ class ResultDisplay extends StatelessWidget {
               child: Container(
                 padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                 decoration: BoxDecoration(
-                  color: VaxpColors.primary.withOpacity(0.4),
+                  color: VaxpColors.primary.withValues(alpha: 0.4),
                   borderRadius: BorderRadius.circular(12),
                   border: Border.all(
-                    color: VaxpColors.primary.withOpacity(0.6),
+                    color: VaxpColors.primary.withValues(alpha: 0.6),
                   ),
                 ),
                 child: Text(
@@ -85,7 +85,7 @@ class ResultDisplay extends StatelessWidget {
               'Click to copy',
               style: TextStyle(
                 fontSize: 12,
-                color: Colors.white.withOpacity(0.5),
+                color: Colors.white.withValues(alpha: 0.5),
               ),
             ),
           ],

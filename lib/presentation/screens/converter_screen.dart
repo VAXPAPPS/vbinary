@@ -64,7 +64,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                     Text(
                       'Convert between Binary, Octal, Decimal, and Hexadecimal',
                       style: TextStyle(
-                        color: Colors.white.withOpacity(0.6),
+                        color: Colors.white.withValues(alpha: 0.6),
                         fontSize: 14,
                       ),
                       textAlign: TextAlign.center,
@@ -140,7 +140,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                           vertical: 16,
                         ),
                         backgroundColor: _inputNumber.isEmpty
-                            ? VaxpColors.primary.withOpacity(0.4)
+                            ? VaxpColors.primary.withValues(alpha: 0.4)
                             : VaxpColors.primary,
                       ),
                     ),
@@ -153,7 +153,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
                               content: Text(state.message),
-                              backgroundColor: Colors.red.withOpacity(0.8),
+                              backgroundColor: Colors.red.withValues(alpha: 0.8),
                             ),
                           );
                         }
@@ -186,7 +186,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
                                 icon: const Icon(Icons.clear),
                                 label: const Text('Clear'),
                                 style: ElevatedButton.styleFrom(
-                                  backgroundColor: Colors.red.withOpacity(0.6),
+                                  backgroundColor: Colors.red.withValues(alpha: 0.6),
                                 ),
                               ),
                             ],
@@ -212,7 +212,7 @@ class _ConverterScreenState extends State<ConverterScreen> {
       SnackBar(
         content: Text('Copied: $text'),
         duration: const Duration(seconds: 2),
-        backgroundColor: Colors.green.withOpacity(0.8),
+        backgroundColor: Colors.green.withValues(alpha: 0.8),
       ),
     );
   }
